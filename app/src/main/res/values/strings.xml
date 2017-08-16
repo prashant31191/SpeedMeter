@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Speedmeter</string>
+    <string name="app_name">WFL Test</string>
 
     <string name="max_speed">Max Speed</string>
     <string name="average_speed">Average Speed</string>
-    <string name="distance">Distance</string>
+    <string name="distance">Distance/Step</string>
     <string name="time">Time</string>
     <string name="accuracy">Accuracy</string>
     <string name="satellite">Satellites</string>

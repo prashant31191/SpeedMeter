@@ -1,13 +1,9 @@
-package fly.speedmeter.grub;
+package fly.speedmeter.wlf;
 
-import android.content.BroadcastReceiver;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.Preference;
-import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceGroup;
-import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 

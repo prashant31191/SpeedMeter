@@ -1,9 +1,7 @@
-package fly.speedmeter.grub;
+package fly.speedmeter.wlf;
 
-import android.os.SystemClock;
 import android.text.SpannableString;
 import android.text.style.RelativeSizeSpan;
-import android.util.Log;
 
 /**
  * Created by fly on 17/04/15.
@@ -68,10 +66,10 @@ public class Data {
     public SpannableString getDistance(){
         SpannableString s;
         if (distanceKm < 1) {
-            s = new SpannableString(String.format("%.0f", distanceM) + "m feet=" + (distanceM*3.28084));
+            s = new SpannableString(String.format("%.0f", distanceM) + "m/step=" + (distanceM*3.28084));
             s.setSpan(new RelativeSizeSpan(0.5f), s.length() - 1, s.length(), 0);
         }else{
-            s = new SpannableString(String.format("%.3f", distanceKm) + "Km feet=" + (distanceM*3.28084));
+            s = new SpannableString(String.format("%.3f", distanceKm) + "km/step=" + (distanceM*3.28084));
             s.setSpan(new RelativeSizeSpan(0.5f), s.length()-2, s.length(), 0);
         }
         return s;

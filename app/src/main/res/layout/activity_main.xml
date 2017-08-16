@@ -162,8 +162,9 @@
         android:text="@string/distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+
         android:layout_below="@id/separator2"
         android:layout_marginTop="16dp"
         android:layout_alignParentLeft="true"
@@ -176,8 +177,9 @@
         android:text="00"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+
         android:layout_below="@id/separator2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"

@@ -19,10 +19,10 @@ It can display some useful information about your route:
 Download
 ---
 <p align="center">
-  <a href="https://f-droid.org/repository/browse/?fdfilter=Speedmeter&fdid=fly.speedmeter.grub"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Get_it_on_F-Droid.svg/200px-Get_it_on_F-Droid.svg.png" height="100" width="306"/></a>
+  <a href="https://f-droid.org/repository/browse/?fdfilter=Speedmeter&fdid=wlf"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Get_it_on_F-Droid.svg/200px-Get_it_on_F-Droid.svg.png" height="100" width="306"/></a>
 </p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=fly.speedmeter.grub"><img src="http://switzerland.tasis.com/uploaded/images2/appstore_button_google.png" height="100" width="306"/></a>
+  <a href="https://play.google.com/store/apps/details?id=wlf"><img src="http://switzerland.tasis.com/uploaded/images2/appstore_button_google.png" height="100" width="306"/></a>
 </p>
 

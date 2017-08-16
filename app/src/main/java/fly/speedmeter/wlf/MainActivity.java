@@ -1,4 +1,4 @@
-package fly.speedmeter.grub;
+package fly.speedmeter.wlf;
 
 import android.content.Context;
 import android.content.Intent;
@@ -21,7 +21,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Chronometer;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.gc.materialdesign.views.ProgressBarCircularIndeterminate;
 import com.gc.materialdesign.widgets.Dialog;
@@ -219,8 +218,8 @@ public class MainActivity extends ActionBarActivity implements LocationListener,
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent = new Intent(this, Settings.class);
-            startActivity(intent);
+          /*  Intent intent = new Intent(this, Settings.class);
+            startActivity(intent);*/
             return true;
         }
 
