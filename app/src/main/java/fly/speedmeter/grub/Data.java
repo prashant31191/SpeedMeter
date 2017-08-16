@@ -52,13 +52,26 @@ public class Data {
         distanceKm = distanceM / 1000f;
     }
 
-    public SpannableString getDistance(){
+    public SpannableString getDistanceMain(){
         SpannableString s;
         if (distanceKm < 1) {
             s = new SpannableString(String.format("%.0f", distanceM) + "m");
             s.setSpan(new RelativeSizeSpan(0.5f), s.length() - 1, s.length(), 0);
         }else{
             s = new SpannableString(String.format("%.3f", distanceKm) + "Km");
+            s.setSpan(new RelativeSizeSpan(0.5f), s.length()-2, s.length(), 0);
+        }
+        return s;
+    }
+
+
+    public SpannableString getDistance(){
+        SpannableString s;
+        if (distanceKm < 1) {
+            s = new SpannableString(String.format("%.0f", distanceM) + "m feet=" + (distanceM*3.28084));
+            s.setSpan(new RelativeSizeSpan(0.5f), s.length() - 1, s.length(), 0);
+        }else{
+            s = new SpannableString(String.format("%.3f", distanceKm) + "Km feet=" + (distanceM*3.28084));
             s.setSpan(new RelativeSizeSpan(0.5f), s.length()-2, s.length(), 0);
         }
         return s;

@@ -20,7 +20,8 @@
     <RelativeLayout
         android:id="@+id/toolbarSpeed"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
         android:layout_below="@+id/toolbar"
         android:layout_gravity="center"
         android:background="@color/red"
@@ -42,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:textSize="100sp"
+            android:textSize="50dp"
             android:textColor="@android:color/white"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"/>
@@ -172,10 +173,10 @@
 
     <TextView
         android:id="@+id/distance"
-        android:text=""
+        android:text="00"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="@android:color/black"
         android:layout_below="@id/separator2"
         android:layout_alignParentRight="true"
